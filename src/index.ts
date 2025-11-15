@@ -1,7 +1,20 @@
-import { commands, ExtensionContext, nvim, TextEdit, TextEditor, window } from 'coc.nvim';
+import {
+  commands,
+  ExtensionContext,
+  nvim,
+  TextEdit,
+  TextEditor,
+  window,
+  workspace,
+} from 'coc.nvim';
 import { QuicktypeGenerator } from './core';
 import { logError } from './log';
 export async function activate(context: ExtensionContext): Promise<void> {
+  const config = workspace.getConfiguration();
+  const enabled = config.get('coc-quicktype.enabled');
+  if (!enabled) {
+    return;
+  }
   context.subscriptions.push(
     commands.registerCommand('quicktype.generate', async () => {
       const t = await nvim.exec(`echo getreg('"')`, true);
