@@ -1,6 +1,6 @@
 # coc-quicktype
 
-coc-quicktype is capable of generating strongly typed models or serializers from JSON queries, making it easy to process JSON in a type safe manner in many programming languages.
+Generate strongly typed models or serializers through JSON
 
 通过json生成强类型模型或者序列化器
 

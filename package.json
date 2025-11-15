@@ -1,7 +1,7 @@
 {
   "name": "coc-quicktype",
-  "version": "0.0.2",
-  "description": "coc-quicktype is capable of generating strongly typed models or serializers from JSON queries, making it easy to process JSON in a type safe manner in many programming languages.",
+  "version": "0.0.3",
+  "description": "Generate strongly typed models or serializers through JSON",
   "author": "chuyanlong <a1008611abcd@126.com>",
   "license": "MIT",
   "main": "lib/index.js",
@@ -50,7 +50,7 @@
     "commands": [
       {
         "command": "quicktype.generate",
-        "title": "Convert the copied JSON from the clipboard to a strongly typed language"
+        "title": "Convert the JSON data in the clipboard into a model or sequencer"
       }
     ]
   },
