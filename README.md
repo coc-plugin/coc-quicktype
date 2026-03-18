@@ -1,8 +1,8 @@
 # coc-quicktype
 
-Generate strongly typed models or serializers through JSON
+json to type
 
-通过json生成强类型模型或者序列化器
+将json转换为每个语言的类型定义
 
 ## Examples
 
