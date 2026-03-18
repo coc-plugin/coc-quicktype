@@ -50,7 +50,7 @@
     "commands": [
       {
         "command": "quicktype.generate",
-        "title": "Convert the JSON data in the clipboard into a model or sequencer"
+        "title": "json to type"
       }
     ]
   },
