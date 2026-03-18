@@ -1,6 +1,6 @@
 {
   "name": "coc-quicktype",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "json to type",
   "author": "chuyanlong <a1008611abcd@126.com>",
   "license": "MIT",
