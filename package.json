@@ -1,7 +1,7 @@
 {
   "name": "coc-quicktype",
-  "version": "0.0.5",
-  "description": "Generate strongly typed models or serializers through JSON",
+  "version": "0.0.6",
+  "description": "json to type",
   "author": "chuyanlong <a1008611abcd@126.com>",
   "license": "MIT",
   "main": "lib/index.js",
