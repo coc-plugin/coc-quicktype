@@ -13,13 +13,13 @@ importers:
         version: 23.2.6
     devDependencies:
       coc.nvim:
-        specifier: ^0.0.83-next.18
+        specifier: 0.0.83-next.24
         version: 0.0.83-next.24(@types/node@16.18.126)
       esbuild:
-        specifier: ^0.19.8
+        specifier: ^0.19.12
         version: 0.19.12
       typescript:
-        specifier: ^5.3.3
+        specifier: ^5.9.3
         version: 5.9.3
 
 packages:
@@ -215,8 +215,8 @@ packages:
   js-base64@3.7.8:
     resolution: {integrity: sha512-hNngCeKxIUQiEUN3GPJOkz4wF/YvdUdbNL9hsBcMQTkKzboD7T/q3OYOuuPZLUE6dBxSGpwhk5mwuDud7JVAow==}
 
-  lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+  lodash@4.17.23:
+    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
 
   node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
@@ -283,8 +283,8 @@ packages:
   wordwrap@1.0.0:
     resolution: {integrity: sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==}
 
-  yaml@2.8.1:
-    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
+  yaml@2.8.2:
+    resolution: {integrity: sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==}
     engines: {node: '>= 14.6'}
     hasBin: true
 
@@ -424,7 +424,7 @@ snapshots:
 
   js-base64@3.7.8: {}
 
-  lodash@4.17.21: {}
+  lodash@4.17.23: {}
 
   node-fetch@2.7.0:
     dependencies:
@@ -446,14 +446,14 @@ snapshots:
       cross-fetch: 4.1.0
       is-url: 1.2.4
       js-base64: 3.7.8
-      lodash: 4.17.21
+      lodash: 4.17.23
       pako: 1.0.11
       pluralize: 8.0.0
       readable-stream: 4.5.2
       unicode-properties: 1.4.1
       urijs: 1.19.11
       wordwrap: 1.0.0
-      yaml: 2.8.1
+      yaml: 2.8.2
     transitivePeerDependencies:
       - encoding
 
@@ -498,4 +498,4 @@ snapshots:
 
   wordwrap@1.0.0: {}
 
-  yaml@2.8.1: {}
+  yaml@2.8.2: {}
